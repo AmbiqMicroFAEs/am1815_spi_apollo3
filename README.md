@@ -1,5 +1,7 @@
 "am1815_spi_apollo3" 
 
+Can be compiled and tested under Keil MDK Community edition
+
 Project description:
 The basic functionality of the AM1815 is presented in this example. The RTC enters sleep mode and leaves it periodically every 3 seconds using the external interrupt EXTI input. The extern XTAL is used as the main oscillator.
 Current time is printed over the UART. The IOM/DMA is used to communicate with the RTC.
